@@ -13,6 +13,16 @@
      text-align:justify;
      text-indent: 50px;
     }
+    
+    a{
+      color: #606060;
+      text-decoration: none;
+    }
+
+    a:hover{
+      text-decoration: underline;;
+    }
+
 
 
     header#cabecalho img#icone{
@@ -45,6 +55,7 @@
     }
 
     body{
+      font-family: Arial, sans-serif;
        background-color: #dddddd;
        color: rgba(0,0,0,1);
     }
@@ -132,10 +143,45 @@ nav#menu a:hover{
 /*Dividindo a tela*/
 section#corpo{
   display: block;
-  width: 450px;
+  width: 440px;
   float: left;
   border-right: 1px solid #606060;
   padding-right: 15px;
+}
+
+article#noticia-principal h2{
+  font-size: 12pt;
+  color: #606060;
+  background-color: #dddddd;
+  padding: 3px 0px 3px 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+ font-family: 'Fontelogo', sans-serif;
+ font-size: 20pt;
+ color: #606060;
+ margin-bottom: 0px;
+ margin-top: 0px;
+
+}
+
+.direita{
+  text-align: right;
+}
+
+header#cabecalho-artigo h2 {
+ font-size: 13pt;
+ color: #606060;
+ background-color: #ffffff;
+ margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+  font-size: 12pt;
+ color: #cecece;
+ background-color: #ffffff;
+ margin: 0px;
 }
 
 table#tabelaespec{
@@ -151,10 +197,53 @@ table#tabelaespec td{
 
 }
 
+table#tabelaespec td.ce{
+color: white;
+background-color: #006060;
+vertical-align: top;
+font-weight: bold;
+}
+
+table#tabelaespec td.cd{
+background: #cecece;
+}
+
+table#tabelaespec caption{
+color: #888888;
+font-size: 10pt;
+font-weight: bolder;
+}
+
+table#tabelaespec caption span{
+  display: block;
+  float: right;
+  color: black;
+  font-size: 8pt;
+  margin-top: 10px; 
+
+}
 aside#lateral{
   display: block;
   width: 320px;
   float: right;
+  background-color: #dddddd;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+aside#lateral h1{
+font-family: 'Fontelogo', sans-serif;
+font-size: 20pt;
+color: #606060;
+margin-top: 0px;
+
+}
+aside#lateral h2{
+  background-color: #606060;
+  font-size: 13pt;
+  color: white;
+  padding: 5px;
 }
 
 footer#rodape{
